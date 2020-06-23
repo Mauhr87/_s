@@ -8,15 +8,15 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package _s
+ * @package hello_world
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses _s_header_style()
+ * @uses hello_world_header_style()
  */
-function _s_custom_header_setup() {
+function hello_world_custom_header_setup() {
 	add_theme_support(
 		'custom-header',
 		apply_filters(
@@ -38,9 +38,9 @@ if ( ! function_exists( '_s_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see _s_custom_header_setup().
+	 * @see hello_world_custom_header_setup().
 	 */
-	function _s_header_style() {
+	function hello_world_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
