@@ -1,0 +1,9 @@
+{
+	"public": {
+		"regenerate-thumbnails": "latest",
+		"wp-pagenavi": "2.93.3"
+	},
+	"premium": {
+		"hello-dolly-bitbucket": "last"
+	}
+}
